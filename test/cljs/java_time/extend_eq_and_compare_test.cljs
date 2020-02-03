@@ -71,5 +71,4 @@
         date (. LocalDate now)
         text (. date format formatter)
         parsed (. LocalDate parse text formatter)]
-    (println text)
     (is (= date parsed))))

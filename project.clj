@@ -1,4 +1,8 @@
 (defproject cljs.java-time "0.1.14"
+  :description "java-time in ClojureScript"
+  :source-paths ["src/cljs"]
+  :test-paths ["test/cljs/java_time"]
+  :java-source-paths ["src/java"]
   :dependencies [[henryw374/js-joda "1.10.1-1"]
                  [net.cgrand/macrovich "0.2.0"]
                  [com.bhauman/figwheel-main "0.1.9"]
